@@ -1,2 +1,2 @@
 #!/bin/bash
-cat: 100: no such file or directory
+find . -empty | rev cut -d '/' -f 1 | rev
